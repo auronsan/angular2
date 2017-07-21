@@ -1,0 +1,15 @@
+<div class="parallax">
+<div class="title">woya</div>
+</div>
+<ul class="mainmenu">
+    <li>
+<a id="opennav" (click) ="openNav()"><i class="fa fa-bars" aria-hidden="true"></i>
+</a></li>
+<div *ngFor = "let header of headers; let i = index;">
+   <li [routerLinkActive]="['active']" >
+    <a [routerLink]="header"  [ngClass]="{'active': i===active }"> {{header}} </a>
+    </li>
+</div>
+    </ul>
+
+    

@@ -1,0 +1,75 @@
+
+@keyframes example {
+   0%   { background-image: url("https://www.femmefatalemedia.com/wp-content/uploads/2017/02/Social-Media-Management-Toronto.jpg");
+    
+    
+}
+    50%  { background-image: url("http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2016/02/GettyImages-503572710-e1468082890450.jpg");
+        
+    /* Set a specific height */
+   
+}
+    100% { background-image: url("http://www.outstandingcolleges.com/wp-content/uploads/2017/05/Medical-Social-worker.jpg");
+         
+}
+}
+
+.parallax { 
+    background-image: url("https://www.femmefatalemedia.com/wp-content/uploads/2017/02/Social-Media-Management-Toronto.jpg");
+    
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin :1px;   
+    animation-name: example;
+    animation-duration: 12s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+.test{
+   
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.test:hover {
+    width: 300px;
+    height: 300px;
+}
+.mainmenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+     
+}
+
+
+.mainmenu li {
+ float: left;
+    
+}
+.mainmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.mainmenu li a:hover {
+    background-color: #4CAF50;
+}
+
+.mainmenu .active {
+    background-color: #4CAF50;
+}
