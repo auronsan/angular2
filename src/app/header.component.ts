@@ -7,16 +7,16 @@ import { DOCUMENT } from '@angular/platform-browser';
 })
 export class HeaderComponent {
   title = 'header app';
-  headers = ['Main','Contact Us'];
+  headers = ['Main'];
   
   
 public openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
     
-    document.getElementById("main").setAttribute("disabled","true");
+    //document.getElementById("main").setAttribute("disabled","true");
     document.getElementById("opennav").style.display = "none";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    //document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
 }

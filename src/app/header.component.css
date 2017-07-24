@@ -1,21 +1,24 @@
 
 @keyframes example {
-   0%   { background-image: url("https://www.femmefatalemedia.com/wp-content/uploads/2017/02/Social-Media-Management-Toronto.jpg");
+   0%   { background-image: url("https://cdn.vox-cdn.com/thumbor/N29Q0QSvJRYI8GUJwzLvhxyrpoM=/0x0:1280x960/1200x800/filters:focal(0x0:1280x960)/cdn.vox-cdn.com/uploads/chorus_image/image/49518605/shutterstock_161925818.0.jpg");
     
     
 }
-    50%  { background-image: url("http://d3i6fh83elv35t.cloudfront.net/newshour/wp-content/uploads/2016/02/GettyImages-503572710-e1468082890450.jpg");
+    33%  { background-image: url("http://architectureimg.com/wp-content/uploads/2017/02/bridges-forest-bridge-serenity-stream-creek-calmness-flowers-wooden-nice-summer-nature-trees-beautiful-greenery-lovely-river-stones-pretty-high-resolution.jpg");
         
     /* Set a specific height */
    
 }
-    100% { background-image: url("http://www.outstandingcolleges.com/wp-content/uploads/2017/05/Medical-Social-worker.jpg");
+    66% { background-image: url("http://www.caylor-solutions.com/wp-content/uploads/brainstorming.jpg");
+         
+}
+    99% { background-image: url("https://cdn.vox-cdn.com/thumbor/N29Q0QSvJRYI8GUJwzLvhxyrpoM=/0x0:1280x960/1200x800/filters:focal(0x0:1280x960)/cdn.vox-cdn.com/uploads/chorus_image/image/49518605/shutterstock_161925818.0.jpg");
          
 }
 }
 
 .parallax { 
-    background-image: url("https://www.femmefatalemedia.com/wp-content/uploads/2017/02/Social-Media-Management-Toronto.jpg");
+    background-image: url("https://cdn.vox-cdn.com/thumbor/N29Q0QSvJRYI8GUJwzLvhxyrpoM=/0x0:1280x960/1200x800/filters:focal(0x0:1280x960)/cdn.vox-cdn.com/uploads/chorus_image/image/49518605/shutterstock_161925818.0.jpg");
     
     /* Set a specific height */
     height: 300px; 
@@ -28,7 +31,7 @@
     text-align: center;
     margin :1px;   
     animation-name: example;
-    animation-duration: 12s;
+    animation-duration: 9s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
 }

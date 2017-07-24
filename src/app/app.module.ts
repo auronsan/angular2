@@ -29,7 +29,7 @@ const appRoutes: Routes = [
   { path: 'Main', component: MainComponent ,
 data: { active: 0 }},
   { path: 'Post', component: PostComponent,
-data: { active: 1 } },
+data: { active: 0 } },
   {
     path: 'Contact Us',
     component: ContactusComponent,
@@ -39,7 +39,7 @@ data: { active: 1 } },
    {
     path: ':id',
     component: ReadComponent,
-    data: { active: 2 },
+    data: { active: 0 },
     
   },
   { path: '**', component: Page404Component }
